@@ -1,0 +1,818 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.tm-header{
+    background: #211f17;
+    display: block;
+    padding: 20px;
+    
+}
+
+.tm-logo{
+    align-content: center;
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+}
+
+.tm-nav{
+   max-width: 90%;
+       border: 2px solid #3a382e;
+    display: block;
+  
+    margin: 30px auto 5px auto;
+  
+}
+
+.tm-nav div
+{
+    display: table;
+    padding: 10px;
+    margin: 0px auto;
+}
+
+.tm-nav div ul li{
+    display:inline-block;  
+   
+}
+
+
+.tm-nav div ul li a{
+    font-size: 1.8vmax;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #fff;
+    line-height: 50px;
+    
+    
+}
+.tm-nav div ul li a:hover{
+    
+    color: #ec3c6a;
+}
+
+.tm-list::after{
+    content: url("../images/circle.png");
+  
+   
+}
+
+/*header ends here and sections start*/
+
+
+/* slider */
+
+.tm-slider{
+    position: relative;
+}
+
+
+.tm-sliderimage{
+    width: 100%;
+   display: block;
+   
+   
+}
+.bold{
+    padding-bottom: 5px;
+    font-size: 3vw;  
+    font-weight: 900;
+}
+.simple{
+    font-size: 2.5vw;  
+}
+
+.tm-slidertext{
+ position: absolute; 
+   top: 30%; 
+  left: 50%;     
+    color: #fff;
+}
+
+
+/* room */
+
+.tm-roomsection{
+    display: flex;
+}
+
+.tm-room{
+    max-width: 33.33%;
+    width: 33.33%;
+  background: #353535;            
+    
+display: inline-block;
+    margin: 0px;
+
+}
+
+
+
+
+.tm-room p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+padding: 5%;
+
+  
+     
+}
+.tm-room .s{
+    margin: 0.1%;
+}
+.tm-room a{
+    text-decoration: none;
+}
+
+.tm-room a p:hover{
+    color: #ec3c6a;
+
+
+
+}
+
+
+
+/* services */
+
+.tm-service{
+    max-width: 30%;
+    width: 30%;
+    margin: 1.5% 12% 1.5% 10%;  
+}
+
+.tm-servicesection{
+    display: flex;
+}
+
+.tm-serimage{
+    display: inline-block;
+    max-width: 20%;
+    width: 10%;
+    height: auto;
+padding-bottom: 10%;
+
+
+}
+
+.tm-service div{
+    display: inline-block;
+
+    max-width: 75%;
+    padding: 5%;
+}
+
+.tm-service p{
+    font-size: 1.5vmax;
+    
+}
+.tm-service .b{
+    padding-bottom: 2%;
+    font-weight: 700;
+}
+
+
+/* review */
+
+
+
+.tm-review{
+    background: #353535;
+    padding-bottom: 5%;
+    
+}
+
+.tm-review::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.tm-revcon{
+    float: left;
+    padding-left: 5%;
+    max-width: 65%;
+}
+
+.tm-revcon .b{
+    padding: 3% 0 3% 5%;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.tm-revcon p{
+    font-size: 1.5vw;
+    color: #fff;
+}
+
+.tm-rev{
+    padding: 3% 0 0% 5%;
+   max-width: 70%;
+ 
+}
+
+
+
+/*
+.tm-revimage{
+    display: inline-block;
+    float: right;
+    max-width: 30%;
+    width: 30%;
+    height: auto;
+    
+}
+*/
+
+.tm-stars{
+ display: block;
+    padding-left: 5%;
+}
+.tm-stars img{
+    width: 4%;
+    height: auto;
+}
+
+
+
+/* Make reservation */
+
+.tm-res{
+    background: #cc4151;
+    padding: 2%;
+}
+
+
+.tm-resbutton p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 2.5vw;
+     padding: 2%;
+    color: #fff;
+    font-weight: 700;
+    border: 1px solid #fff;
+   
+}
+.tm-resbutton a{
+     text-decoration: none;
+}
+
+.tm-resbutton p:hover{
+    color: #ec3c6a;
+    background: #fff;
+}
+
+
+
+/* footer */
+
+.tm-footer{
+     background: #211f17;
+    display: block;
+    padding: 20px;
+    position: relative;
+
+}
+
+.tm-us{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+    margin: 2% 0 2% 4%
+}
+
+.tm-address{
+    display: inline-table;
+    max-width: 30%;
+    width: 30%;
+     margin: 2% 0 2% 25%
+}
+
+.tm-us .bold, .tm-address .bold{
+    color: #ec3c6a;
+    font-size: 1.5vw;
+    font-weight: 700;
+    padding-bottom: 4%;
+}
+
+.tm-us p, .tm-address p{
+    color: #fff;
+    font-size: 1.2vw;
+}
+
+.tm-media{
+   display: inline;
+    margin: 0 0 0 59%;
+ 
+
+}
+.tm-media img{
+  margin: 0.5%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-up
+{
+    position: absolute;
+    top: 20%;
+    right: 3%;
+    width: 3%;
+    height: auto;
+    
+}
+
+.tm-review:focus{
+    outline: none;
+}
+
+.tm-revcon:focus{
+    outline: none;
+}
+
+
+/* Explore page */
+
+.tm-main{
+      background: #cc4151;
+    padding: 2%;
+}
+
+.tm-main p{
+    display: table;
+    max-width: 30%;
+    margin: 0 auto;
+    font-size: 4vw;
+     padding: 2%;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* Explore sections */
+
+.tm-exp1, .tm-exp2{
+    background: #353535;
+    
+}
+
+.tm-exp1::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+.tm-exp2::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+
+.tm-exp1 p{
+    float: right;
+    padding-right: 5%;
+    padding-top: 15%;
+    max-width: 30%;
+    font-size: 3.5vw;
+    color: #fff;
+}
+
+.tm-exp2 p{
+    float: left;
+    padding-left: 5%;
+    padding-top: 15%;
+    max-width: 30%;
+    font-size: 3.5vw;
+    color: #fff;
+}
+
+.tm-exp1 img{
+    display: block;
+    float: left;
+    max-width: 60%;
+    width: 60%;
+    height: auto;
+    
+}
+
+.tm-exp2 img{
+    display: block;
+    float: right;
+    max-width: 60%;
+    width: 60%;
+    height: auto;
+    
+}
+
+
+.tm-expsection::after{
+  content: ".";
+     font-size: xx-small;
+    visibility: hidden;
+}
+
+
+
+/* rooms page */
+
+.tm-roomsection{
+    display: flex;
+}
+
+.tm-room1{
+    max-width: 33.33333%;
+    width: 33.333333%;
+    background: #353535;
+    
+display: inline-block;
+    margin: 0px;
+    position: relative;
+}
+
+.tm-room1 p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    z-index: 2;
+    position: relative;
+}
+
+
+.tm-roomimage{
+    max-width: 100%;
+    width: 100%;    
+}
+
+.tm-trans{
+    display: inline-block;
+    position: absolute;
+    top: 78%; /*78*/
+   color: #fff;
+     max-width: 100%;
+    width: 100%;
+    height: 0%; /*0*/
+     background: rgba(53, 53, 53,0.7);
+    opacity: 0; /*0*/
+}
+
+.tm-trans p{
+    font-size: 1.8vw;
+
+}
+.tm-trans div{
+    display: inline-table;
+    width: 40%;
+    max-width: 40%;
+    margin: 2%;
+}
+
+.tm-trans div .bold{
+    color: #ff8d9a;
+
+}
+
+
+.tm-room1:hover .tm-trans{
+ 
+    top:30%;
+   
+    transition: top 1s, opacity 1s, height 1s;
+       opacity: 1;
+     height: 50%;
+    z-index: 1;
+}
+
+
+
+/* booking */
+
+.tm-booking
+{
+     background: #353535;
+    position: relative;
+}
+.tm-form1, .tm-form2{
+   
+    padding: 2% 5%;
+    
+}
+
+ div.vertical-line{
+      width: 0.15%; 
+      background-color:  #ec3d68; 
+      height: 90%; 
+      position: absolute;
+         top: 6%;
+    left: 50%;
+    }
+
+.tm-form1{
+    float:left;
+/*
+    max-width: 39.5%;
+    width: 39.5%;
+*/
+    
+     max-width: 40%;
+    width: 40%;
+    
+    
+}
+
+.tm-form2{
+    float:right;
+/*
+    max-width: 39.5%;
+    width: 39.5%;
+*/
+    
+    
+     max-width: 40%;
+    width: 40%;
+   
+}
+
+input, select, textarea,
+input::-webkit-input-placeholder {
+    font-size: 2vw;
+}
+
+input, select, textarea{
+    color: #ec3d68;
+}
+
+input::-webkit-input-placeholder{
+    color: #f17c94;
+}
+
+textarea::-webkit-input-placeholder{
+    color: #f17c94;
+}
+
+
+label{
+     font-size: 2vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.tm-booking::after{
+    content:" ";
+    display: block;
+    clear: both;
+}
+
+input[type=text]:nth-child(1),input[type=email],textarea{
+    display: block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 80%;
+   
+}
+
+textarea {
+    max-width: 80% ;
+    resize: none;
+    
+}
+
+#rooms{
+    display: inline-block;
+    margin: 5%;
+    padding: 1% 3%;
+    width: 55%;
+}
+
+#inlinelable{
+    display: inline-block;
+    margin: 5%;
+    
+}
+
+
+
+
+.tm-num1, .tm-num2{
+    display: inline-block;
+
+    max-width: 39%;
+    width: 39%;
+    margin: 5%;
+}
+
+#number1 , #number2{
+    width:30%;
+    padding: 3% 8%;
+    margin-top: 5%;
+  
+    text-align: center;
+}
+
+
+.range{
+    font-size: 2vw;
+    margin-top: 5%;
+    margin-bottom: 50%;
+    padding: 1% 3%;
+    width: 70%;
+}
+
+
+input[type=submit]{
+    display: block;
+    background: #353535;
+    padding: 1% 3%;
+     color: #fff;
+    border: 1px solid #fff;
+
+ 
+
+}
+
+#sub{
+     margin-left: 70%;
+  
+}
+
+#sub2{
+     margin-left: 5%;
+  
+}
+
+input[type=submit]:hover{
+    color: #ec3d68;
+    border: 1px solid #ec3d68;
+}
+
+input[type=submit]:focus{
+    outline: none;
+}
+
+.arrival {
+    display: block;
+    margin-top: 5%;
+}
+
+.here {
+    display: inline-block;
+    margin-top: 5%;
+    font-size: 2vw;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+#place{
+     margin-top: 5%;
+    margin-left: 3%;
+    width:5%;
+    max-width: 5%;
+}
+
+
+
+#map{
+    margin-top: 5%;
+   height: 335px;
+    width: 80%;
+}
+
+
+
+
+
+
+
+
+
+.tm-imgslider{
+    position: relative;
+}
+
+.left, .right{
+    position: absolute;
+    width: 1.5%;
+    max-width: 1.5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 2%;
+    padding-right: 2%;
+     opacity:0;
+   
+}
+
+.left:hover, .right:hover{
+     opacity:1;
+    -webkit-transition: opacity .25s ease-in-out .0s;
+    transition: opacity .25s ease-in-out .0s;
+}
+
+.left{
+    top: 10%;
+    left: 1%;
+}
+
+.right{
+    top: 10%;
+    right: 1%;
+}
+
+
+
+
+
+
+
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+
+
+#scrollUp {
+  bottom: 100px;
+  right: 40px;
+  padding: 1%;
+  background: #211f17;
+    border : 3px solid;
+  color: #fff;
+   opacity: 0.7;
+    border-radius: 50%;
+    font-size: 1.5vw;
+        width: 1.5%;
+        text-align: center;
+    
+}
+
+
+
+/*
+#scrollUp {
+    background-image: url("../images/up.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    
+    height: 38px;   
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+.tm-rooms{
+    display: block;
+    background: #353535;
+    max-width: 33.33%;
+    width: 33.33%;
+}
+
+.tm-rooms img{
+    max-width: 100%;
+    width: 100%;
+}
+
+
+
+.tm-rooms p{
+    font-size: 2.5vw;
+    color: #fff;
+    text-align: center;
+padding: 5%;
+
+  
+}
+
+.tm-rooms a{
+    text-decoration: none;
+}
+
+.tm-rooms a p:hover{
+    color: #ec3c6a;
+
+
+}
+
+.s{
+    padding-bottom: 1%;
+}
+
+.flex{
+    display: flex;
+}

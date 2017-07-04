@@ -1,0 +1,31 @@
+.counter-minus,  .counter-plus { 
+    text-align: center; }
+
+
+.btn {
+    
+ padding: 3% 6% 4% 6%;
+    font-size: 2vw;
+    font-weight: 900;
+   border: 3px transparent;
+  color: #fff;
+
+}
+
+
+
+
+
+.btn:disabled, .btn:disabled:hover {
+  background-color: #8a364d;
+  
+}
+
+.btn-primary { background-color: #ea4370; }
+
+.btn-primary:hover, .btn-primary:focus { background-color: #d3305c; 
+
+   outline: 0;
+}
+
+
