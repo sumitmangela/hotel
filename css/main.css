@@ -95,46 +95,55 @@
 
 /* room */
 
-.tm-roomsection{
-    display: flex;
+
+.tm-rooms:focus {
+    outline: none;
+}
+.tm-rooms a:focus {
+    outline: none;
 }
 
-.tm-room{
+.tm-rooms{
+    display: block;
+    background: #353535;
     max-width: 33.33%;
     width: 33.33%;
-  background: #353535;            
-    
-display: inline-block;
-    margin: 0px;
+}
 
+
+.tm-rooms img{
+    max-width: 100%;
+    width: 100%;
 }
 
 
 
-
-.tm-room p{
+.tm-rooms p{
     font-size: 2.5vw;
     color: #fff;
     text-align: center;
 padding: 5%;
 
   
-     
 }
-.tm-room .s{
-    margin: 0.1%;
-}
-.tm-room a{
+
+.tm-rooms a{
     text-decoration: none;
 }
 
-.tm-room a p:hover{
+.tm-rooms a p:hover{
     color: #ec3c6a;
-
 
 
 }
 
+.s{
+    padding-bottom: 1%;
+}
+
+.flex{
+    display: flex;
+}
 
 
 /* services */
@@ -217,16 +226,6 @@ padding-bottom: 10%;
 
 
 
-/*
-.tm-revimage{
-    display: inline-block;
-    float: right;
-    max-width: 30%;
-    width: 30%;
-    height: auto;
-    
-}
-*/
 
 .tm-stars{
  display: block;
@@ -756,63 +755,9 @@ input[type=submit]:focus{
 
 
 
-/*
-#scrollUp {
-    background-image: url("../images/up.png");
-    bottom: 20px;
-    right: 20px;
-    width: 38px;    
-    height: 38px;   
-}
-
-*/
 
 
 
 
 
 
-
-
-
-
-.tm-rooms{
-    display: block;
-    background: #353535;
-    max-width: 33.33%;
-    width: 33.33%;
-}
-
-.tm-rooms img{
-    max-width: 100%;
-    width: 100%;
-}
-
-
-
-.tm-rooms p{
-    font-size: 2.5vw;
-    color: #fff;
-    text-align: center;
-padding: 5%;
-
-  
-}
-
-.tm-rooms a{
-    text-decoration: none;
-}
-
-.tm-rooms a p:hover{
-    color: #ec3c6a;
-
-
-}
-
-.s{
-    padding-bottom: 1%;
-}
-
-.flex{
-    display: flex;
-}
