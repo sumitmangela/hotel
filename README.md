@@ -19,7 +19,7 @@ This page provides all the details about the rooms available in the hotel. When 
 This is the page which has the booking faciltiy of the hotel. The form contains inputs for name, email-id, type of rooms, Number of rooms, and number of visitors. For number of rooms and visitors spinner buttons are provided (-,+) using a jquery plugin. For Date of Arrival and departure a datepicker jquery plugin is used.
 
 * Contact Page
-This page can be used to contact the hotel by filling a simple form. It also serves purpose of providing the location of hotel in google maps. THe location and zoom levels of the map can be easily modified.
+This page can be used to contact the hotel by filling a simple form. It also serves purpose of providing the location of hotel in google maps. The location of hotel and zoom levels of the map can be easily modified.
 
 
 # Jquey Plugins used for the website
