@@ -12,11 +12,7 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <script type="text/javascript" src="dist/jquery.scrollUp.js"></script>
      <script type="text/javascript" src="dist/demo.js"></script>
-
-    
-    
-    </head>
-    
+    </head>   
 <body>
     <header class="tm-header">
         <img class="tm-logo" src="images/Majestic_Hotel_hd.png" alt="Majestic Hotel">
@@ -32,14 +28,9 @@
             </div>
         </nav>
     </header>
-    
-    
     <section class="tm-main">
            <p>Booking</p>
     </section>
-    
-    
-    
     <section class="tm-booking">
     
     <form>
@@ -54,12 +45,7 @@
         <option value="Luxuryr">Luxury Room</option>
         <option value="deluxs">Delux Room</option>
         <option value="premierr">Premier Room</option>
-    </select> 
-            
-            
-            
-
-            
+    </select>            
             
     <div class="tm-num1" id="handleCounter1">    
     <label for="number1" >Number of Rooms</label><br/>
@@ -72,11 +58,7 @@
         <button type="button" class="counter-minus btn btn-primary">-</button>
         <input type="text" name="number2" id="number2" value="1">
             <button type="button" class="counter-plus btn btn-primary">+</button>
-            </div>
-              
-            
-            
-  
+    </div>
     
     </div>
         
@@ -86,16 +68,14 @@
    <div class="tm-cl">
         <label for="date1" class="arrival">Visiting Dates from Arrival to Departure</label>
 
-     <input type="text" name="date1" class="range" readonly="readonly"> 
-        
+     <!--input type="text" name="date1" class="range" readonly="readonly"--> 
+       <input type="date" name="date" class="range" required> 
 
-     <input type="submit" id="sub" value="Proceed">
+     <input type="submit" id="sub" value="BOOK">
     </div>
     </div>
         </form>
-  </section>
-    
-    
+  </section>    
     <footer class="tm-footer">
         <div class="tm-us">
         <p class="bold">About Us</p>
